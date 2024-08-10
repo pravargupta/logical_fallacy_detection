@@ -1,4 +1,6 @@
 import speech_recognition as sr
+import pyaudio
+from prompt import main
 import sounddevice as sd
 import numpy as np
 
@@ -34,5 +36,6 @@ def real_time_with_microphone():
                 print("Google Speech Recognition could not understand the audio")
     except KeyboardInterrupt:
         print("\nProgram interrupted by user. Exiting gracefully.")
+    main()
 
 real_time_with_microphone()
