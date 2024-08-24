@@ -1,8 +1,5 @@
 import speech_recognition as sr
-import pyaudio
 from prompt import main
-import sounddevice as sd
-import numpy as np
 
 r = sr.Recognizer()
 
@@ -17,7 +14,6 @@ def output_text(text):
     with open("output.txt", "a") as f:
         f.write(text + "\n")
     f.close()
-
 
 def real_time_with_microphone():
     f = open("output.txt", "w")
