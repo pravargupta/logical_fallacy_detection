@@ -51,10 +51,11 @@ default_prompt = '''You are a logical fallacy detective and your task is to anal
 Your task is to carefully analyze the text and identify any instances of these logical fallacies. Provide clear explanations and examples to support your assessment.
 Don't simply detect fallacies for the sake of detecting them, we are trying to help people and if fallacy is simply detected when its barely there or
 not there at all, it can lead to misinformation.
-If no fallacy is detected, just write "No fallacy detected"
+If no fallacy is detected, just write "No fallacy detected", please avoid false positives.
 '''
 
-def main():
+def execute_prompt():
     text = default_prompt + read_text()
     response = get_gemini_response(text)
     print(response)
+    return response

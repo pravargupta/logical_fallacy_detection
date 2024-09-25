@@ -1,6 +1,6 @@
 import pyaudio
 import wave
-import speech_recognition as sr
+import realtime_speech as sr
 
 # Audio recording settings
 CHUNK = 1024
