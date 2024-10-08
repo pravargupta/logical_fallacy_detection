@@ -1,12 +1,10 @@
-Got it! Here's the updated version of the `README.md`, including the correct license information.
-
----
-
 # Logical Fallacy Detection
 
-This project aims to detect logical fallacies in speech or arguments. Logical fallacies are flaws in reasoning that might sound convincing but are based on incorrect premises. They can be challenging to detect in real-time conversations, debates, or speeches, but this tool helps to identify such fallacies automatically.
+Building a project to detect fault logics in an argument/speech that sound like they make sense but are based off a wrong base overall and are very hard to find out in the heat of the moment.
 
-Currently, the project uses **Google Speech Recognition** to convert speech to text and then analyzes the text using the **Gemini API** for fallacy detection. The goal is to improve the model's performance in future versions.
+For now we have speech to text recognition where we play audio from microphone and it outputs to output.txt(using google speech recognition) and then we run it through gemini api because gemini is free for educational use.
+
+The text is then passed through gemini api with the prompt to detect fallacies within that text, this will be updated and made with a way better version in future too.
 
 ## Features
 
