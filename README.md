@@ -1,4 +1,4 @@
-Here's a cleaned-up and properly formatted `README.md` for your project. This structure is more concise and follows a standard open-source project layout.
+Got it! Here's the updated version of the `README.md`, including the correct license information.
 
 ---
 
@@ -68,5 +68,4 @@ The application should now be running at `http://localhost:5000/`.
 
 ## License
 
-This project is for educational purposes only. Feel free to use and contribute!
-implementation.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
